@@ -16,21 +16,21 @@
     itemKeys = {
       "weather-common": 3,
       "law-crime": 3,
-      "law-sea": 3,
+      "law-sea": 1,
       "law-cert": 3,
       "law-boat": 3,
       "sail-common-way": 3,
       "sail-common-mark": 3,
-      "sail-common-engine": 3,
-      "sail-common-operate": 3,
+      "sail-common-engine": 4,
+      "sail-common-operate": 4,
       "sail-common-maintain": 3,
       "seamanship-basic": 3,
       "seamanship-equip": 3,
       "seamanship-tech": 3,
       "communication-management": 3,
-      "communication-emergency": 3,
+      "communication-emergency": 2,
       "sail-way": 3,
-      "sail-light": 2
+      "sail-light": 3
     };
     function getRandomArrayElements(arr, count) {
       var shuffled = arr.slice(0), i = arr.length, min = i - count, temp, index;
