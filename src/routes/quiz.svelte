@@ -75,6 +75,7 @@
  
 </script>
 <div>
+  <h3 class="mb-3">動力小船駕駛測驗</h3>
   {#if allQuestion.length > 0}
   {#if getResult}
   <div class="alert alert-secondary" role="alert">
@@ -85,7 +86,7 @@
   <hr />
   {/if}
   {#each allQuestion as qus, index}
-  <div class="card mb-2">
+  <div class="card mb-3">
     <div class="card-body">
       {#if getResult}
         {#if qus.answer === qus.userAnswer}
@@ -117,7 +118,7 @@
     </ul>
   </div>
 	{/each}
-  <button type="button" class="btn btn-primary" on:click={submit}>送出答案</button>
+  <button type="button" class="btn btn-lg btn-primary" on:click={submit}>送出答案</button>
   {:else}
       <p>loading.....</p>
   {/if}
