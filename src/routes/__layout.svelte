@@ -7,8 +7,12 @@
 	<slot />
 </main>
 
-<footer>
-	
+<footer class="mt-3 bg-light">
+	<div class="container">
+		<div>
+			<p class="small mb-0 text-center">題庫已更新為交通部航港局 1110728 發布版本</p>
+		<div>
+	</div> 
 </footer>
 
 <style>
@@ -28,7 +32,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding: 40px;
+		padding: 16px;
 	}
 
 	footer a {
@@ -37,7 +41,7 @@
 
 	@media (min-width: 480px) {
 		footer {
-			padding: 40px 0;
+			padding: 16px 0;
 		}
 	}
 </style>

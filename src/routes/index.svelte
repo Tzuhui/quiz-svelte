@@ -19,15 +19,8 @@
 				<img src="svelte-welcome.png" alt="Welcome" />
 			</picture>
 		</span>
-
-		to your new<br />SvelteKit app
+		動力小船駕駛測驗
 	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
 </section>
 
 <style>

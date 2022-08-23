@@ -12,7 +12,7 @@
     e.returnValue = "";
   };
   async function getData() {
-    item = await fetch('https://raw.githubusercontent.com/FWcloud916/tw-boating-exam-convert/main/output/1110210_exam.json').then(r => r.json());
+    item = await fetch('https://raw.githubusercontent.com/FWcloud916/tw-boating-exam-convert/main/main/latest_exam.json').then(r => r.json());
     itemKeys = {
       "weather-common": 3,
       "law-crime": 3,
